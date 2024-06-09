@@ -168,6 +168,7 @@ list-style:none;
     position: absolute;
     bottom: 10px;
     right: 10px;
+   display:none;
 }
 /*end services */
 /*start contact*/
