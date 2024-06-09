@@ -155,6 +155,7 @@ list-style:none;
     margin-left: -100px; /* 1/2 width */
     top: 50%;
     margin-top: -250px;  /*1/2 height*/
+    overflow: scroll;
   }
   @media only screen and (max-width: 600px) {
     .popup .inner{
