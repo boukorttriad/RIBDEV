@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>RIB DEV</title>
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg sticky-top ">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/rib_f_Plan_de_travail_1-removebg-preview.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse " id="main">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 active text-light" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 text-light" href="#Services">Services </a>
+            </li>
+            
+            
+              <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3 text-light" href="#contact">Contact</a>
+              </li>
+         
+          </ul>
+         
+      </div>
+    </nav>
+    <!--end nav-->
+<div class="container">
+<!--section home-->
+<section class="home" id="home">
+<canvas class="background"></canvas>
+<div class="row p-5">
+  <div class="col-sm-4 d-flex align-items-center"><img class=" logohome img-fluid" src="images/rib_f_Plan_de_travail_1-removebg-preview.png"></div>
+  <div class="col-sm-8 d-flex align-items-center"><h3>Faites affaire avec nous pour <span id="element"></span></h3></div>
+</div>
+
+</section>
+<!--end section home-->
+<!--start services-->
+<div class="services m-2" id="services">
+  <h2 class="main-class text-center m-5">services</h2>
+  <h5>Notre agence de conception web et graphique desing RIB DEV  est spécialisée dans la création de solutions sur-mésure pour répondre aux besoins de nos clients</h5>
+  <div class="row text-center">
+    <div class=" col-lg-6">
+      <div class="box ">
+        <img src="images/5771233_3021192.jpg" alt="" class="img-fluid p-2">
+        <h4 class="p-3  " >Développment Web </h4>
+        <button type="button" data-popup="devpop"class="btn showpopup ">Détails</button>
+      </div>   
+    </div>
+    
+        
+    
+    <div class=" col-lg-6">
+      <div class="box">
+        <img src="images/5771233_3021192.jpg" alt="" class="img-fluid p-2">
+        <h4 class="p-3 "data-popup="despop">Design</h4>
+        <button type="button" data-popup="despop" class="btn showpopup">Détails</button>
+      </div>
+        
+    </div>
+        
+    
+    <div class="  col-lg-6">
+      <div class="box">
+        <img src="images/13176038_5144313.jpg" alt="" class="img-fluid p-2">
+        <h4 class="p-3 ">Impression</h4>
+        <button type="button" data-popup="impop" class="btn showpopup">Détails</button>
+      </div>
+        
+    </div>
+  </div>
+  <h5>Notre équipe d'experts en design, développement web et gestion de projet travaille en étroite collaboration avec chaque client pour comprendre leurs besoins uniques et leur fournir des solutions créatives et efficaces. Nos valeurs clés sont l'excellence, l'innovation et le service client irréprochable.
+
+    Contactez-nous dès aujourd'hui pour discuter de votre prochain projet !</h5>
+</div>
+<!--start popup-->
+<div class="popup devpop">
+  <div class="inner">
+    <h2>Développment Web</h2>
+    <p>Création de sites web :
+      - Conception de sites internet adaptés à la marque et aux objectifs du client
+      - Développement de sites web responsive, optimisés pour une expérience utilisateur fluide sur tous les appareils
+      - Intégration de fonctionnalités personnalisées telles que boutiques en ligne, calendriers, formulaires de contact, etc.
+      - Référencement naturel (SEO) pour une meilleure visibilité en ligne
+      - Maintenance et mises à jour régulières des sites web
+      </p>
+    <button>fermer</button>
+  </div>
+</div>
+<div class="popup conpop">
+  <div class="inner ">
+    <h2> Création de contenu</h2>
+    <p>bla blabla</p>
+    <button>fermer</button>
+  </div>
+</div>
+<div class="popup despop">
+  <div class="inner">
+    <h2>Design</h2>
+    <p>Design graphique :
+      - Création de logos et d'identités visuelles uniques reflétant l'image de marque du client
+      - Conception de supports de communication imprimés et numériques (brochures, dépliants, affiches, etc.)
+      - Mise en page et infographie professionnelle
+      - Illustrations et éléments graphiques sur mesure</p>
+    <button>fermer</button>
+  </div>
+</div>
+<div class="popup impop">
+  <div class="inner">
+    <h2>Impression</h2>
+    <p>Impression de supports :
+- Impression de cartes de visite haut de gamme sur papiers sélectionnés
+- Production de flyers, dépliants et brochures en petits et grands formats
+- Impression d'enseignes et de signalétique pour les entreprises
+- Emballages et étiquettes personnalisés</p>
+    <button>fermer</button>
+  </div>
+</div>
+
+<!--end popup-->
+ <!--end services-->
+<!--start contact -->
+<div class=" contact  p-2" id="contact">
+  <h2 class="main-class text-center m-5">Contacte</h2>
+  <form action="https://api.web3forms.com/submit" method="POST" class="container contact-form p-2 "id="contact-form">
+    <input type="hidden" name="access_key" value="47c6f9b0-509f-4907-bd9d-d2fde5d53684">
+
+    <div class="form-group mb-3 ">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="form-group mb-3 ">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+    <div class="form-group mb-3">
+      <label for="message" class="form-label">Message</label>
+      <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+    </div >
+    <div class="text-center">
+      <button type="submit" class="btn btn-primary">Envoyer</button>
+    </div>
+    
+  </form>
+  <ul class="d-flex mt-5 list-unstyled gap-3 justify-content-center">
+    <li>
+
+      <a href="https://www.facebook.com/profile.php?id=61559278624770" class="d-block text-light">
+        <i class="fa-brands fa-facebook fa-lg facebook rounded-circle p-2 "></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Friad_bkrtt%3Figsh%3DMWx5cjhjdWk5MTdpYQ%253D%253D%26fbclid%3DIwZXh0bgNhZW0CMTAAAR2WIFsMrV00juJYmSuelIdSPIL_bDY1DQcjZhanaQBo8UUlPL2eCvOmW3M_aem_AcTIm0k6ulGZ3Oah6snbQV3g1zMThYlgqp_wlK5Ojkww9yPixo4NnfeHGuyIOGmwB4mnFHP167eQpFTn4J3sAoJe&h=AT3Zd67nii0DequupEZ4geoqs8PgiLuYdgYI1gk6c_3qK301LZo9yLF9e11NMOQiQGUBOK-4DMQ79XSvRmCwRw9WHygjGaux6ndHUCROOjpjbZxNX25t5SK49Sf4P9HD2so11A" class="d-block text-light">
+        <i class="fa-brands fa-instagram fa-lg instagram rounded-circle p-2"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.tiktok.com%2F%40rib.dev%3F_t%3D8n2bz2xtjaY%26_r%3D1%26fbclid%3DIwZXh0bgNhZW0CMTAAAR0YQilPPioVKBKoBqyi4bJcs4ihF0ayhLdJy6krNLCtF8doWJnAClk0kzk_aem_AcSnNAgFFgn19-gGY42Jy0LXRU6YEyYNGo-fRwRLAKcZE3bdZi99E8pTfLxdU5OWAeQDicvHA48eATjy3YwgS_yz&h=AT3Zd67nii0DequupEZ4geoqs8PgiLuYdgYI1gk6c_3qK301LZo9yLF9e11NMOQiQGUBOK-4DMQ79XSvRmCwRw9WHygjGaux6ndHUCROOjpjbZxNX25t5SK49Sf4P9HD2so11A" class="d-block text-light">
+        <i class="fa-brands fa-tiktok fa-lg tiktok rounded-circle p-2"></i>
+      </a>
+    </li>
+    <li>
+      <a href="ribdev22@gmail.com" class="d-block text-light">
+        <i class="fa-solid fa-envelope fa-lg gmail rounded-circle p-2"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+</div>
+<footer>
+<h3 class="text-center text-light p-3">created by Boukortt riad
+    © 2024 - RIB DEV </h3>
+</footer>
+<!--end contact-->
+ <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+ <script src="js/bootstrap.bundle.min.js"></script>
+ <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
